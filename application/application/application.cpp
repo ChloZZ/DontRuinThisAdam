@@ -29,3 +29,9 @@ int main()
 	return 0;
 }
 
+void welcomePlayer(const string& aJumble)
+{
+	cout << "Welcome to a console application where a word is scrambled and the player who is reading this must unscramble said word..." << endl << endl;
+	cout << "You are to unscramble: " << aJumble << endl;
+}
+
