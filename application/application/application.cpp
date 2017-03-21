@@ -29,6 +29,7 @@ int main()
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //return a random word
 string randomWord()
 {
@@ -65,3 +66,11 @@ string mixUp(const string& aWord)
 }
 
 >>>>>>> a0796d54644d2936146a6cc4a4db7cac48b5347e
+=======
+void welcomePlayer(const string& aJumble)
+{
+	cout << "Welcome to a console application where a word is scrambled and the player who is reading this must unscramble said word..." << endl << endl;
+	cout << "You are to unscramble: " << aJumble << endl;
+}
+
+>>>>>>> 02541f1884defb79e3026eab9d2c7f9bd2dae7b7
