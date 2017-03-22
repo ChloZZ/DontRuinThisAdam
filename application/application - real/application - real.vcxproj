@@ -11,9 +11,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
+<<<<<<< HEAD:application/application/application.vcxproj
     <ProjectGuid>{0C363792-3579-462C-93A4-C1E65D70DB57}</ProjectGuid>
+=======
+    <ProjectGuid>{DA929C58-BBBC-460C-A743-8B80E2DF7348}</ProjectGuid>
+>>>>>>> 587543ccee40994f408b9a678fb54d1fe75b771e:application/application - real/application - real.vcxproj
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>application</RootNamespace>
+    <RootNamespace>applicationreal</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -83,7 +87,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="application.cpp" />
+    <ClCompile Include="application - real.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
