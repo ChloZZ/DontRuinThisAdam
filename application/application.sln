@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-<<<<<<< HEAD:application/application.sln
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "application", "application\application.vcxproj", "{0C363792-3579-462C-93A4-C1E65D70DB57}"
-=======
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "application - real", "application - real\application - real.vcxproj", "{DA929C58-BBBC-460C-A743-8B80E2DF7348}"
->>>>>>> 587543ccee40994f408b9a678fb54d1fe75b771e:application/application - real.sln
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,17 +11,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-<<<<<<< HEAD:application/application.sln
 		{0C363792-3579-462C-93A4-C1E65D70DB57}.Debug|Win32.ActiveCfg = Debug|Win32
 		{0C363792-3579-462C-93A4-C1E65D70DB57}.Debug|Win32.Build.0 = Debug|Win32
 		{0C363792-3579-462C-93A4-C1E65D70DB57}.Release|Win32.ActiveCfg = Release|Win32
 		{0C363792-3579-462C-93A4-C1E65D70DB57}.Release|Win32.Build.0 = Release|Win32
-=======
-		{DA929C58-BBBC-460C-A743-8B80E2DF7348}.Debug|Win32.ActiveCfg = Debug|Win32
-		{DA929C58-BBBC-460C-A743-8B80E2DF7348}.Debug|Win32.Build.0 = Debug|Win32
-		{DA929C58-BBBC-460C-A743-8B80E2DF7348}.Release|Win32.ActiveCfg = Release|Win32
-		{DA929C58-BBBC-460C-A743-8B80E2DF7348}.Release|Win32.Build.0 = Release|Win32
->>>>>>> 587543ccee40994f408b9a678fb54d1fe75b771e:application/application - real.sln
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -29,11 +29,7 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-<<<<<<< HEAD:application/application/application.vcxproj.filters
     <ClCompile Include="application.cpp">
-=======
-    <ClCompile Include="application - real.cpp">
->>>>>>> 587543ccee40994f408b9a678fb54d1fe75b771e:application/application - real/application - real.vcxproj.filters
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
