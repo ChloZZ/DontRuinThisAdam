@@ -1,4 +1,4 @@
+*.suo
 *.sdf
 
-*.suo
 **/Debug/*
