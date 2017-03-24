@@ -54,14 +54,25 @@ string mixUp(const string& aWord)
 }
 
 
-void play(const string& aWord)
-{
-
-}
-
-
 void welcomePlayer(const string& aJumble)
 {
 	cout << "Welcome to a console application where a word is scrambled and the player who is reading this must unscramble said word..." << endl << endl;
 	cout << "You are to unscramble: " << aJumble << endl;
+}
+
+void play(const string& aWord)
+{
+	string guess;
+	do
+	{
+		cout << endl << endl << "Your guess: ";
+		cin >> guess;
+		if ((guess != aWord) && (guess != "quit"))
+		{
+			cout << "Sorry, that's not it.";
+		}
+	} while ((guess != aWord) && (guess != "quit"));
+	if (guess == aWord)
+		cout << endl << "That's it! You guessed it!" << endl;
+	cout << endl << "Thanks for playing.\n" << endl;
 }
