@@ -1,10 +1,3 @@
-<<<<<<< HEAD
 *.suo
 *.sdf
-
 **/Debug/*
-=======
-*.sdf
-*.suo
-**/Debug/*
->>>>>>> 8a421e6ee0797cdd7374c6693a559bc096811c0b
