@@ -48,11 +48,6 @@ string randomWord()
 	return word;
 }
 
-string mixUp(const string& aWord)
-{
-	return string();
-}
-
 
 void welcomePlayer(const string& aJumble)
 {
